@@ -1,0 +1,21 @@
+
+.btn-center {
+    justify-content: center;
+    display: flex;
+    margin-top: 33vh;
+}
+
+.btn-center a {
+    color: #000;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-radius: 3vh;
+     transition: 0.4s;
+}
+
+.btn-center a:hover {
+    color: #FFF;
+    background: #000;
+    transition: 0.4s;
+}

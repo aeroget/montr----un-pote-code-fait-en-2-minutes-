@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+    align-items: center;
+}
+
+.card {
+    margin: 2vh;
+    background-color: #444;
+    height: 40vh;
+    width: 30vh;
+    border-radius: 3vh;
+}
+
+.img {
+    margin-top: 5vh;
+}
+
+.img img {
+    width: 30vh;
+}
+
+.title h1 {
+    text-align: center;
+    margin: 2vh;
+}
+
+.buy-card {
+    display: flex;
+    align-items: center;
+}
+
+.btn a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: flex;
+    padding: 1rem 2rem;
+    background: #000;
+    margin: 3vh;
+    border-radius: 3vh;
+    transition: 0.4s;
+}
+
+.btn a:hover {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    padding: 1rem 2rem;
+    background: #f1f1f1;
+    margin: 3vh;
+    transition: 0.4s;
+}
